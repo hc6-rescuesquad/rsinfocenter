@@ -6,19 +6,19 @@ color: #FFF;
 }
 
 .pulsate {
-    -webkit-animation: pulsate 1.5s ease-out;
+    -webkit-animation: pulsate 2s ease-out;
     -webkit-animation-iteration-count: infinite; 
     opacity: 0.5;
 }
 @-webkit-keyframes pulsate {
     0% { 
-        opacity: 0;
+        opacity: 0.3;
     }
     50% { 
         opacity: 1.0;
     }
     100% { 
-        opacity: 0;
+        opacity: 0.3;
     }
 }
 
@@ -27,7 +27,7 @@ color: #FFF;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: black;
+   background-color: #666;
    color: white;
    text-align: center;
 }
@@ -53,6 +53,6 @@ body {margin:0;}
 }
 
 .navbar a:hover {
-  background: #ddd;
+  background: #FFF;
   color: #999;
 }
